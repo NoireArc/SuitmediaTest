@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body ,html{
+    overflow-x: hidden;
+}
+
+/* Navbar CSS Start */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.nav-link{
+    display: flex;
+    align-items: center;
+}
+
+.nav-link li{
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.nav-link li a{
+    padding: 10px 25px;
+    text-decoration: none;
+    color: black;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.nav-link li:hover{
+    background-color: rgb(219, 219, 219);
+}
+
+.nav-link .dropdown{
+    display: none;
+}
+
+.nav-link li:hover .dropdown{
+    display: block;
+    background-color: white;
+    position: absolute;
+    border-radius: 15px;
+}
+
+/* Navbar CSS End */
+
+/* Slider Image CSS Start */
+
+* {box-sizing:border-box}
+
+.mySlides {
+  display: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 50px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: left;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* Slider Image CSS End */
+
+/* Our Values CSS Start */
+.box-area{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.single-box1{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: auto;
+    border-radius: 4px;
+    background-color: rgb(255, 84, 84);
+    color: white;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+.single-box2{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: auto;
+    border-radius: 4px;
+    background-color: rgb(0, 167, 0);
+    color: white;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+.single-box3{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: auto;
+    border-radius: 4px;
+    background-color: rgb(112, 179, 201);
+    color: white;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+.img-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    padding: 20px;
+    background-size: cover;
+    margin-bottom: 10px;
+    -webkit-background-size: cover;
+    background-position: center center;
+}
+
+/* Our Value CSS End */
+
+/* Contact Us Form CSS Start */
+
+form{
+    max-width: 550px;
+    width: 90%;
+    background: white;
+    margin: 17vh auto 0 auto;
+}
+
+h1{
+    margin: 0;
+    text-align: center;
+}
+
+label{
+    display: block;
+    margin: 20px 0;
+}
+
+input,textarea{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    outline: none;
+    resize: none;
+}
+
+textarea::-webkit-scrollbar{
+    width: 4px;
+}
+
+.center{
+    text-align: center;
+}
+
+input[type="submit"]{
+    color: white;
+    font-weight: 400px;
+    background: rgb(99, 99, 255);
+    cursor: pointer;
+}
+
+.error{
+    color: red;
+}
+
+.error-border {
+    border-bottom: 1px solid;
+}
+
+#success{
+    color: green;
+}
+/* Contact Us Form CSS End */
+
+/* Footer CSS Start */
+
+.footer{
+    width: 100%;
+    min-height: 50px;
+    padding : 20px 80px;
+    margin: 0;
+    background : rgb(77, 77, 77);
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer p{
+    color: whitesmoke;
+    margin: 20px auto;
+    padding: 20px auto;
+}
+
+/* Footer CSS End */

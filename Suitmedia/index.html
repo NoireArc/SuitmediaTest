@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <body>
+        <!-- NavBar Start--> 
+        <nav class="navbar">
+            <h1 class="logo">Company</h1>
+            <ul class="nav-link">
+                <li><a href="#">About</a>
+                    <ul class="dropdown">
+                        <li><a href="#">History</a></li>
+                        <li><a href="#">History</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Our Work</a></li>
+                <li><a href="#">Our Team</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- Navbar End -->
+
+        <!-- Image Start -->
+        
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+              <img src="bg.jpg">
+              <div class="text">THIS IS A PLACE WHERE TECHNOLOGY & CREATIVITY FUSED INTO DIGITAL CHEMISTRY</div>
+            </div>
+          
+            <div class="mySlides fade">
+              <img src="about-bg.jpg">
+            </div>
+        </div>
+
+        <!-- Image End -->
+
+        <!-- Our Value Start -->
+        <h1>Our Values</h1>
+        <div class="box-area">
+            <div class="single-box1">
+                <div class="img-area"><img src="lightbulb-o.png" alt=""></div>
+                <div class="img-text"></div>
+                    <span class="header-text"><strong>Innovative</strong></span>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae molestias ex perspiciatis est voluptatum similique sequi eveniet at nulla assumenda, officia quia corporis, distinctio maiores placeat doloribus deserunt cumque excepturi.</p>
+            </div>
+            <div class="single-box2">
+                <div class="img-area"><img src="bank.png" alt=""></div>
+                <div class="img-text"></div>
+                    <span class="header-text"><strong>Loyalty</strong></span>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae molestias ex perspiciatis est voluptatum similique sequi eveniet at nulla assumenda, officia quia corporis, distinctio maiores placeat doloribus deserunt cumque excepturi.</p>    
+            </div>            
+                <div class="single-box3">
+                    <div class="img-area"><img src="balance-scale.png" alt=""></div>
+                    <div class="img-text"></div>
+                        <span class="header-text"><strong>Respect</strong></span>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae molestias ex perspiciatis est voluptatum similique sequi eveniet at nulla assumenda, officia quia corporis, distinctio maiores placeat doloribus deserunt cumque excepturi.</p>
+                </div>
+        </div>
+        <!-- Our Value End -->
+
+        <!-- Contact Us Form Start -->
+
+        <div class="overlay">
+            <form onsubmit="event.preventDefault(); validateForm()">
+                <h1>Contact Us</h1>
+
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="Your Name">
+                <small class="error"></small>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Your Email">
+                <small class="error"></small>
+
+                <label for="message">Message:</label>
+                <textarea id="message" rows="6" placeholder="Your Message"></textarea>
+                <small class="error"></small>
+
+                <div class="center">
+                    <input type="submit" value="SUBMIT">
+                    <p id="success"></p>
+                </div>
+            </form>
+        </div>
+
+        <!-- Contact Us Form End -->
+
+        <!-- Footer Start -->
+
+        <section class="footer">
+            <p>Copyright © 2016. PT Company</p>
+            <img src="facebook-official.png" alt="">
+            <img src="twitter.png" alt="">
+    </section>
+
+    <!-- Footer End -->
+    <script src="script.js"></script>
+    <script src="slide.js"></script>
+</body>
+</html>
